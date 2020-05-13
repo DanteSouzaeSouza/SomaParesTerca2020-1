@@ -41,5 +41,13 @@ namespace SomaParesTerca2020_1
             // jogando o total da soma no txtSoma
             txtSoma.Text = soma.ToString();
         }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            // Limpando os controles para novo cálculo
+            txtSoma.Clear();
+            txtNum.Clear();
+
+        }
     }
 }
