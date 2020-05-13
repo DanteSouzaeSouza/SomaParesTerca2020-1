@@ -51,7 +51,7 @@ namespace SomaParesTerca2020_1
 
                 // jogando o total da soma no txtSoma
                 txtSoma.Text = soma.ToString();
-            }// se num for diferente de 0 e múltiplo também,
+            }// se num for diferente de 0 e o múltiplo também,
             // Calcula a soma dos múltiplos
             else if (num != 0 && multiplo != 0)
             {
